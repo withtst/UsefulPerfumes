@@ -11,6 +11,13 @@ function UPPerfumeSprayAction:start()
     self.item = UsefulPerfumes.findPlayerItem(self.character, self.itemId)
     if self.item then
         self.itemId = self.item:getID()
+        -- Use only the eating animation's hand motion. The model override is
+        -- visual; the perfume stays in its current (possibly nested) container.
+        local handModel = self.item:getStaticModel() or self.item:getWorldStaticModel()
+        self:setActionAnim(CharacterActionAnims.Eat)
+        self:setAnimVariable("FoodType", "EatSmall")
+        self:setOverrideHandModels(nil, handModel)
+        self.character:reportEvent("EventEating")
     end
     self.sound = self.character:playSound("UP_PerfumeSpray")
 end
