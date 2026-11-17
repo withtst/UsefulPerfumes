@@ -1,0 +1,10 @@
+name=Useful Perfumes / 实用香水
+id=UsefulPerfumes
+description=Makes perfume and cologne useful: spray to reduce unhappiness and stress, keep a 4-hour aroma buff, weaken corpse smell, merge scattered bottles of the same perfume, and enjoy six new perfumes with unique effects. / 让原版香水与古龙水变得有用：喷洒后降低不开心与压力，获得 4 小时香气增益，削弱尸体臭味，一键合并同款零散香水，并新增六款各有特效的香水。
+author=ZCG
+icon=icon.png
+poster=poster.png
+versionMin=42.21
+versionMax=42.99
+modversion=0.7.1
+zomboidversion=42

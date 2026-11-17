@@ -1,0 +1,11 @@
+{
+    "ContextMenu_UP_SprayPerfume": "Use Perfume",
+    "ContextMenu_UP_SprayPerfume_Tooltip": "Spray this perfume. The aroma lasts 4 hours.",
+    "ContextMenu_UP_Respray_Tooltip": "You are still scented: the same perfume refills the aroma to 4 hours, a different one replaces the current effect and lasts a full 4 hours.",
+    "ContextMenu_UP_Empty": "Perfume bottle is empty",
+    "ContextMenu_UP_Empty_Tooltip": "Less than one dose remains in this bottle.",
+    "ContextMenu_UP_Busy": "Cannot spray perfume right now",
+    "ContextMenu_UP_Busy_Tooltip": "Cannot spray perfume right now",
+    "ContextMenu_UP_MergeAll": "Merge All %1",
+    "ContextMenu_UP_MergeAll_Tooltip": "Consolidate every bottle of this perfume into as few bottles as possible. Empty bottles are kept."
+}

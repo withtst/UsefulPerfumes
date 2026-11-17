@@ -1,0 +1,44 @@
+module Base
+{
+    model UP_PerfumeBlueberry
+    {
+        mesh = WorldItems/UP_PerfumeBlueberry,
+        texture = WorldItems/UP_PerfumeBlueberry,
+        scale = 0.48,
+    }
+
+    model UP_PerfumeCheap
+    {
+        mesh = WorldItems/UP_PerfumeCheap,
+        texture = WorldItems/UP_PerfumeCheap,
+        scale = 0.48,
+    }
+
+    model UP_PerfumeElegant
+    {
+        mesh = WorldItems/UP_PerfumeElegant,
+        texture = WorldItems/UP_PerfumeElegant,
+        scale = 0.48,
+    }
+
+    model UP_PerfumeHerbal
+    {
+        mesh = WorldItems/UP_PerfumeHerbal,
+        texture = WorldItems/UP_PerfumeHerbal,
+        scale = 0.48,
+    }
+
+    model UP_PerfumeColdCotton
+    {
+        mesh = WorldItems/UP_PerfumeColdCotton,
+        texture = WorldItems/UP_PerfumeColdCotton,
+        scale = 0.48,
+    }
+
+    model UP_PerfumeSlumber
+    {
+        mesh = WorldItems/UP_PerfumeSlumber,
+        texture = WorldItems/UP_PerfumeSlumber,
+        scale = 0.48,
+    }
+}

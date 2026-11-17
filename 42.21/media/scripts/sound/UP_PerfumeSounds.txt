@@ -1,0 +1,12 @@
+module Base
+{
+    sound UP_PerfumeSpray
+    {
+        category = Player,
+        clip
+        {
+            file = media/sound/UP_PerfumeSpray.wav,
+            distanceMax = 20,
+        }
+    }
+}

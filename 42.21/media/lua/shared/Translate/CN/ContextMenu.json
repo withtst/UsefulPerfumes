@@ -1,0 +1,11 @@
+{
+    "ContextMenu_UP_SprayPerfume": "使用香水",
+    "ContextMenu_UP_SprayPerfume_Tooltip": "喷上这款香水，香气持续 4 小时。",
+    "ContextMenu_UP_Respray_Tooltip": "身上仍有香气：喷同款立即续满 4 小时；喷别的香水会替换当前效果并续满 4 小时。",
+    "ContextMenu_UP_Empty": "香水瓶已空",
+    "ContextMenu_UP_Empty_Tooltip": "瓶内剩余不足一次用量。",
+    "ContextMenu_UP_Busy": "当前无法喷香水",
+    "ContextMenu_UP_Busy_Tooltip": "当前无法喷香水",
+    "ContextMenu_UP_MergeAll": "合并所有%1",
+    "ContextMenu_UP_MergeAll_Tooltip": "把身上所有同款香水合并到尽可能少的瓶子里，空瓶会保留。"
+}

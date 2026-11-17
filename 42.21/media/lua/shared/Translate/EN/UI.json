@@ -1,0 +1,23 @@
+{
+    "UI_UP_Sprayed": "You spray %1. The aroma will last 4 hours.",
+    "UI_UP_Switched": "You switch to %1. The old aroma effect is replaced.",
+    "UI_UP_Merged": "Merged %1: %2 bottles → %3, freeing %4 empty bottles.",
+    "UI_UP_MergeNothing": "No perfume to merge",
+    "UI_UP_MergeBlocked": "The perfume was not merged: your inventory is at full carry weight, so the engine refuses the transfer.",
+    "UI_UP_MergeCooldown": "Merging too often, please wait a moment.",
+    "UI_UP_Status_Name": "Perfume: %1",
+    "UI_UP_Status_Time": "Time left: %1",
+    "UI_UP_Status_Effect": "Effect: ",
+    "UI_UP_Time_HM": "%1 h %2 min",
+    "UI_UP_Time_M": "%1 min",
+    "UI_UP_Time_LessMin": "<1 min",
+    "UI_UP_Effect_Perfume": "Mood -40 / Stress -40%% / Corpse smell 75%% / Mood/stress rise -40%%",
+    "UI_UP_Effect_Cologne": "Mood -40 / Stress -40%% / Corpse smell 75%% / Endurance -15%% / Mood/stress rise -40%%",
+    "UI_UP_Effect_UP_FirstLoveBlueberry": "Mood -80 / Stress -80%% / Corpse smell 75%% / Mood/stress cannot rise / While asleep: Stress/Panic/Depression -5%% per hour.",
+    "UI_UP_Effect_UP_CheapKnockoff": "Mood -10 / Stress -10%% / Corpse smell 75%% / Mood/stress rise -40%%",
+    "UI_UP_Effect_UP_ElegantMiss": "Mood -40 / Stress -40%% / Corpse smell 75%% / Detection -15%% / Mood/stress cannot rise / While asleep: Stress/Panic/Depression -2%% per hour.",
+    "UI_UP_Effect_UP_HerbalBlend": "Mood -40 / Stress -40%% / Corpse smell 75%% / Fatigue rise -15%% / Mood/stress rise -40%%",
+    "UI_UP_Effect_UP_ColdCotton": "Mood -40 / Stress -40%% / Corpse smell 40%% / Mood/stress rise -40%%",
+    "UI_UP_Effect_UP_SlumberFloral": "Mood -40 / Stress -40%% / Corpse smell 75%% / Mood/stress cannot rise / Sleep anywhere to 0 fatigue, pain still blocks / While asleep: Stress/Panic/Depression -2%% per hour / Sleep time ×0.7 (fatigue recovery ×1.43).",
+    "UI_UP_ModernStatus_Title": "Perfume status"
+}

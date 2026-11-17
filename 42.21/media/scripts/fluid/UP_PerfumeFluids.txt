@@ -1,0 +1,92 @@
+module Base
+{
+    fluid UP_FirstLoveBlueberryPerfume
+    {
+        ColorReference = LightPink,
+        DisplayName = Fluid_Name_UP_FirstLoveBlueberryPerfume,
+        Categories
+        {
+            Poisons,
+            Industrial,
+        }
+        Properties
+        {
+            alcohol = 0.8,
+        }
+    }
+
+    fluid UP_CheapKnockoffPerfume
+    {
+        ColorReference = LightPink,
+        DisplayName = Fluid_Name_UP_CheapKnockoffPerfume,
+        Categories
+        {
+            Poisons,
+            Industrial,
+        }
+        Properties
+        {
+            alcohol = 0.8,
+        }
+    }
+
+    fluid UP_ElegantMissPerfume
+    {
+        ColorReference = LightPink,
+        DisplayName = Fluid_Name_UP_ElegantMissPerfume,
+        Categories
+        {
+            Poisons,
+            Industrial,
+        }
+        Properties
+        {
+            alcohol = 0.8,
+        }
+    }
+
+    fluid UP_HerbalBlendPerfume
+    {
+        ColorReference = LightPink,
+        DisplayName = Fluid_Name_UP_HerbalBlendPerfume,
+        Categories
+        {
+            Poisons,
+            Industrial,
+        }
+        Properties
+        {
+            alcohol = 0.8,
+        }
+    }
+
+    fluid UP_ColdCottonPerfume
+    {
+        ColorReference = LightPink,
+        DisplayName = Fluid_Name_UP_ColdCottonPerfume,
+        Categories
+        {
+            Poisons,
+            Industrial,
+        }
+        Properties
+        {
+            alcohol = 0.8,
+        }
+    }
+
+    fluid UP_SlumberFloralPerfume
+    {
+        ColorReference = LightPink,
+        DisplayName = Fluid_Name_UP_SlumberFloralPerfume,
+        Categories
+        {
+            Poisons,
+            Industrial,
+        }
+        Properties
+        {
+            alcohol = 0.8,
+        }
+    }
+}

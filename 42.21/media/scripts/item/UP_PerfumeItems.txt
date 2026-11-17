@@ -1,0 +1,170 @@
+module Base
+{
+    item UP_FirstLoveBlueberry
+    {
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = UP_BlueberryPerfume,
+        IconFluidMask = UP_BlueberryPerfume_Mask,
+        WorldStaticModel = UP_PerfumeBlueberry,
+        Tooltip = Tooltip_UP_FirstLoveBlueberry,
+        Tags = base:cookable,
+        component FluidContainer
+        {
+            ContainerName = BottlePerfume,
+            Capacity = 0.1,
+            InitialPercentMin = 0.1,
+            InitialPercentMax = 1.0,
+            CustomDrinkSound = DrinkingFromMug,
+            Fluids
+            {
+                fluid = UP_FirstLoveBlueberryPerfume:1.0,
+            }
+            whitelist
+            {
+                fluid = UP_FirstLoveBlueberryPerfume,
+            }
+        }
+    }
+
+    item UP_CheapKnockoff
+    {
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = UP_CheapPerfume,
+        IconFluidMask = UP_CheapPerfume_Mask,
+        WorldStaticModel = UP_PerfumeCheap,
+        Tooltip = Tooltip_UP_CheapKnockoff,
+        Tags = base:cookable,
+        component FluidContainer
+        {
+            ContainerName = BottlePerfume,
+            Capacity = 0.1,
+            InitialPercentMin = 0.1,
+            InitialPercentMax = 1.0,
+            CustomDrinkSound = DrinkingFromMug,
+            Fluids
+            {
+                fluid = UP_CheapKnockoffPerfume:1.0,
+            }
+            whitelist
+            {
+                fluid = UP_CheapKnockoffPerfume,
+            }
+        }
+    }
+
+    item UP_ElegantMiss
+    {
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = UP_ElegantPerfume,
+        IconFluidMask = UP_ElegantPerfume_Mask,
+        WorldStaticModel = UP_PerfumeElegant,
+        Tooltip = Tooltip_UP_ElegantMiss,
+        Tags = base:cookable,
+        component FluidContainer
+        {
+            ContainerName = BottlePerfume,
+            Capacity = 0.1,
+            InitialPercentMin = 0.1,
+            InitialPercentMax = 1.0,
+            CustomDrinkSound = DrinkingFromMug,
+            Fluids
+            {
+                fluid = UP_ElegantMissPerfume:1.0,
+            }
+            whitelist
+            {
+                fluid = UP_ElegantMissPerfume,
+            }
+        }
+    }
+
+    item UP_HerbalBlend
+    {
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = UP_HerbalPerfume,
+        IconFluidMask = UP_HerbalPerfume_Mask,
+        WorldStaticModel = UP_PerfumeHerbal,
+        Tooltip = Tooltip_UP_HerbalBlend,
+        Tags = base:cookable,
+        component FluidContainer
+        {
+            ContainerName = BottlePerfume,
+            Capacity = 0.1,
+            InitialPercentMin = 0.1,
+            InitialPercentMax = 1.0,
+            CustomDrinkSound = DrinkingFromMug,
+            Fluids
+            {
+                fluid = UP_HerbalBlendPerfume:1.0,
+            }
+            whitelist
+            {
+                fluid = UP_HerbalBlendPerfume,
+            }
+        }
+    }
+
+    item UP_ColdCotton
+    {
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = UP_ColdCottonPerfume,
+        IconFluidMask = UP_ColdCottonPerfume_Mask,
+        WorldStaticModel = UP_PerfumeColdCotton,
+        Tooltip = Tooltip_UP_ColdCotton,
+        Tags = base:cookable,
+        component FluidContainer
+        {
+            ContainerName = BottlePerfume,
+            Capacity = 0.1,
+            InitialPercentMin = 0.1,
+            InitialPercentMax = 1.0,
+            CustomDrinkSound = DrinkingFromMug,
+            Fluids
+            {
+                fluid = UP_ColdCottonPerfume:1.0,
+            }
+            whitelist
+            {
+                fluid = UP_ColdCottonPerfume,
+            }
+        }
+    }
+
+    item UP_SlumberFloral
+    {
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = UP_SlumberPerfume,
+        IconFluidMask = UP_SlumberPerfume_Mask,
+        WorldStaticModel = UP_PerfumeSlumber,
+        Tooltip = Tooltip_UP_SlumberFloral,
+        Tags = base:cookable,
+        component FluidContainer
+        {
+            ContainerName = BottlePerfume,
+            Capacity = 0.1,
+            InitialPercentMin = 0.1,
+            InitialPercentMax = 1.0,
+            CustomDrinkSound = DrinkingFromMug,
+            Fluids
+            {
+                fluid = UP_SlumberFloralPerfume:1.0,
+            }
+            whitelist
+            {
+                fluid = UP_SlumberFloralPerfume,
+            }
+        }
+    }
+}

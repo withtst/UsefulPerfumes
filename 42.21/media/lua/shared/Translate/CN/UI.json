@@ -1,0 +1,23 @@
+{
+    "UI_UP_Sprayed": "你喷了%1，香气将持续 4 小时。",
+    "UI_UP_Switched": "你换成了%1，旧香气的效果已被替换。",
+    "UI_UP_Merged": "已合并%1：%2 瓶 → %3 瓶，腾出 %4 个空瓶。",
+    "UI_UP_MergeNothing": "没有可合并的香水",
+    "UI_UP_MergeBlocked": "香水没能合并：背包负重已满，引擎拒绝转移液体。",
+    "UI_UP_MergeCooldown": "合并太频繁，请稍后再试。",
+    "UI_UP_Status_Name": "香水：%1",
+    "UI_UP_Status_Time": "剩余：%1",
+    "UI_UP_Status_Effect": "效果：",
+    "UI_UP_Time_HM": "%1小时%2分",
+    "UI_UP_Time_M": "%1分",
+    "UI_UP_Time_LessMin": "<1分",
+    "UI_UP_Effect_Perfume": "心情-40 / 压力-40%% / 尸臭75%% / 不开心压力上升-40%%",
+    "UI_UP_Effect_Cologne": "心情-40 / 压力-40%% / 尸臭75%% / 耐力消耗-15%% / 不开心压力上升-40%%",
+    "UI_UP_Effect_UP_FirstLoveBlueberry": "心情-80 / 压力-80%% / 尸臭75%% / 不开心压力不上升 / 入睡时压力/恐惧/抑郁每小时-5%%",
+    "UI_UP_Effect_UP_CheapKnockoff": "心情-10 / 压力-10%% / 尸臭75%% / 不开心压力上升-40%%",
+    "UI_UP_Effect_UP_ElegantMiss": "心情-40 / 压力-40%% / 尸臭75%% / 被僵尸发现-15%% / 不开心压力不上升 / 入睡时压力/恐惧/抑郁每小时-2%%",
+    "UI_UP_Effect_UP_HerbalBlend": "心情-40 / 压力-40%% / 尸臭75%% / 疲劳上升-15%% / 不开心压力上升-40%%",
+    "UI_UP_Effect_UP_ColdCotton": "心情-40 / 压力-40%% / 尸臭40%% / 不开心压力上升-40%%",
+    "UI_UP_Effect_UP_SlumberFloral": "心情-40 / 压力-40%% / 尸臭75%% / 不开心压力不上升 / 任意处睡到疲劳0，疼痛仍阻止 / 入睡时压力/恐惧/抑郁每小时-2%% / 睡眠时长×0.7（疲劳恢复×1.43）",
+    "UI_UP_ModernStatus_Title": "香水状态"
+}
