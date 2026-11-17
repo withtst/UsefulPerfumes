@@ -427,10 +427,17 @@ function UsefulPerfumes.getUseBlockReason(player, item)
     return nil
 end
 
-function UsefulPerfumes.calcSleepTraitMod(insomniac, nightOwl)
+function UsefulPerfumes.calcSleepTraitMod(insomniac, nightOwl, needsLessSleep, needsMoreSleep)
     local mod = 1.0
     if insomniac then mod = mod * UsefulPerfumes.SleepInsomniacMod end
     if nightOwl then mod = mod * UsefulPerfumes.SleepNightOwlMod end
+    -- IsoPlayer.updateStats_Sleeping divides the recovery period by this
+    -- need-sleep factor. NeedsLessSleep takes precedence if both are present.
+    if needsLessSleep then
+        mod = mod / 0.75
+    elseif needsMoreSleep then
+        mod = mod / 1.18
+    end
     return mod
 end
 
@@ -439,7 +446,9 @@ function UsefulPerfumes.getSleepTraitMod(player)
     local ok, mod = pcall(function()
         return UsefulPerfumes.calcSleepTraitMod(
             player:hasTrait(CharacterTrait.INSOMNIAC),
-            player:hasTrait(CharacterTrait.NIGHT_OWL))
+            player:hasTrait(CharacterTrait.NIGHT_OWL),
+            player:hasTrait(CharacterTrait.NEEDS_LESS_SLEEP),
+            player:hasTrait(CharacterTrait.NEEDS_MORE_SLEEP))
     end)
     if ok and mod then return mod end
     return 1.0
